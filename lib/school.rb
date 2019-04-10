@@ -23,7 +23,7 @@ class School
   end
   
   def sort
-    roster.each do |names, grades|
+    roster.each do |grades, names|
       binding.pry
       names.sort 
     end
